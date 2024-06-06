@@ -44,6 +44,6 @@ Remember to save your settings after configuration and publish or update the pag
 
 ## Screenshots
 
-![Admin Interface](doc/admin.png)
-![Settings](doc/settings.png)
-![Contributors](doc/contributors.png)
+![Admin Interface](db-github-contributors/doc/admin.png)
+![Settings](db-github-contributors/doc/settings.png)
+![Contributors](db-github-contributors/doc/contributors.png)
