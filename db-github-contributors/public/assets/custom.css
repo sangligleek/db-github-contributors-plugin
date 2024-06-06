@@ -1,0 +1,69 @@
+/* Base Styles */
+
+/* Style for the h2 */
+.github-contributors-h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Style for the list */
+#github-contributors-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style for each contributor */
+#github-contributors-list a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    text-indent: -9999px; /* Remove to add contributor name */
+}
+
+/* Style for the contributor image */
+#github-contributors-list img {
+    border-radius: 50%;
+    display: block;
+    width: 80px;
+}
+/* Style for the list contributor */
+#github-contributors-list li {
+    width: calc(11.1% - 20px); /* Each contributor occupies approximately one-third of its container's width */
+    margin-bottom: 20px;
+  overflow: hidden; /* Hides any content that overflows the element */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    #github-contributors-list li {
+        width: calc(20% - 20px); /* Five contributors per row */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #github-contributors-list li {
+        width: calc(25% - 20px); /* Four contributors per row */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #github-contributors-list li {
+        width: calc(33.3% - 20px); /* Three contributors per row */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #github-contributors-list li {
+        width: calc(50% - 20px); /* Two contributors per row */
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #github-contributors-list li {
+        width: calc(100% - 20px); /* One contributor per row */
+    }
+}
